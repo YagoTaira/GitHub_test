@@ -1,0 +1,127 @@
+h1, h2{
+	text-align: center;
+	font-family: 'Henny Penny', cursive;
+}
+
+h2{
+	font-size: 35px;
+	color: #ffcc99;
+}
+
+.jumbotron{
+	height: 200px;
+	width: 100%;
+	background-color: #cc6600;
+}
+
+body{
+	background-image: url("coffee_background.jpg");
+}
+
+h1{
+	font-size: 60px;
+}
+
+
+.one{
+	height: 150px;
+	width: 100%;
+	background-color: #4e3418;
+	position: absolute;
+	top: 255px;
+	color:white;
+}
+
+.two{
+	height: 150px;
+	width: 100%;
+	background-color: #9c6830;
+	position: absolute;
+	top: 325px;
+}
+
+.three{
+	height: 80px;
+	width: 100%;
+	background-color: #cf9b63;
+	position: absolute;
+	top: 400px;
+}
+
+.coffee1{
+	position: absolute;
+	top: 700px;
+	height: 300px;
+	width: 25%;
+}
+
+.coffee2{
+	position: absolute;
+	top: 700px;
+	height: 300px;
+	width: 25%;
+}
+
+.coffee3{
+	position: absolute;
+	top: 700px;
+	height: 300px;
+	width: 25%;
+}
+
+.coffee4{
+	position: absolute;
+	top: 700px;
+	height: 300px;
+	width: 25%;
+}
+
+.navbar{
+	width: 100%;
+	position: absolute;
+	top: 200px;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 25%;
+}
+
+@media screen and (max-width: 500px) {
+
+.coffee1{
+	position: absolute;
+	top: 700px;
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+
+.coffee2{
+	position: absolute;
+	top: 1000px;
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+
+.coffee3{
+	position: absolute;
+	top: 1300px;
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+
+.coffee4{
+	position: absolute;
+	top: 1600px;
+	height: 300px;
+	width: 100%;
+	float: left;
+}
+}
